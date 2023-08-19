@@ -91,7 +91,7 @@ async fn get_config() -> Option<PathBuf>{
     }
     let mut config_folder = dirs::config_dir().unwrap();
     config_folder.push("tradu");
-    config_folder.push("config.yml");
+    config_folder.push("tradu.yml");
     debug!("Config folder: {}", config_folder.display());
     if(tokio::fs::metadata(&config_folder)).await.is_ok(){
         return Some(config_folder);
