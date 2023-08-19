@@ -17,6 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Compile and release
+        id: compile
         uses: rust-build/rust-build.action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,6 +40,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Compile and release
+        id: compile
         uses: rust-build/rust-build.action@master
         with:
           RUSTTARGET: ${{ matrix.target }}
