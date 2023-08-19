@@ -1,0 +1,9 @@
+log_level: error
+base_url: api-free.deepl.com
+endpoint: v2/translate
+auth_key: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+source_lang: ES
+target_lang: EN
+split_sentences: 1
+preserve_formatting: false
+formality: default
