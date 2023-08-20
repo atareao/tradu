@@ -2,6 +2,13 @@
 name = "tradu"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A simple command to traslate using DeepL"
+homepage = "https://atareao.es/"
+repository = "https://github.com/atareao/tradu"
+readme = "README.md"
+keywords = ["translations"]
+cateories = ["command-line.utilities", "text-processing"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
